@@ -318,10 +318,21 @@ li::marker {
 form {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
-    width: auto;
+    /* width: auto; */
 }
+
+.form-group input, .form-group textarea{
+    width: 70%;
+    margin-bottom: 5px;
+    padding: 5px;
+    /* display: flex; */
+
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -364,4 +375,9 @@ form {
 .hng {
     color: white;
     text-decoration: underline;
+}
+
+.growth {
+    width: 80%;
+    margin: 0 auto;
 }
